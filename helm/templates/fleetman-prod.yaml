@@ -8,10 +8,10 @@ metadata:
 spec:
   project: production
   source:
-    repoURL: https://raw.githubusercontent.com/53555/helm-repo/master
-    targetRevision: HEAD
-    helm:
-      version: 0.3.0
+    path: ''
+    repoURL: 'https://raw.githubusercontent.com/53555/helm-repo/master'
+    targetRevision: 0.3.0
+    chart: fleetman
   destination:
     namespace: production
     server: https://kubernetes.default.svc
