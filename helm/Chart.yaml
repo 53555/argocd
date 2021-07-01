@@ -1,4 +1,4 @@
 apiVersion: v1
 description: fleetman production
-name: fleetman-prod
+name: fleetman
 version: "0.1.0"
