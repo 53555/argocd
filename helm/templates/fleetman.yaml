@@ -6,13 +6,13 @@ metadata:
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
-  project: production
+  project: stage
   source:
     repoURL: https://raw.githubusercontent.com/53555/helm-repo/master
     targetRevision: "0.3.0"
     chart: fleetman
   destination:
-    namespace: default
+    namespace: stage
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:
