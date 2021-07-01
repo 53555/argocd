@@ -8,8 +8,7 @@ metadata:
 spec:
   project: production
   source:
-    path: helm
-    repoURL: https://github.com/53555/argocd.git
+    repoURL: https://raw.githubusercontent.com/53555/helm-repo/master
     targetRevision: HEAD
     helm:
       version: 0.3.0
