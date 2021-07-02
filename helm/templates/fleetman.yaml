@@ -9,7 +9,7 @@ spec:
   project: production
   source:
     repoURL: https://raw.githubusercontent.com/53555/helm-repo/master
-    targetRevision: master
+    targetRevision: HEAD
     chart: fleetman
   destination:
     namespace: default
