@@ -13,7 +13,7 @@ spec:
     path: guestbook
   destination:
     server: https://kubernetes.default.svc
-    namespace: prod
+    namespace: default
   syncPolicy:
     automated:
       selfHeal: true
